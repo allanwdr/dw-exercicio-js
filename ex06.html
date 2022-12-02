@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/ex06.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Tendo como dados de entrada a altura e o sexo de
+        uma pessoa a partir de uma caixa de combinação,
+        construa uma página que calcule seu peso ideal. -->
+    <h2>Calculadora de peso ideal</h2>
+    <form action="" method="post">
+        <label for="height">Altura</label>
+        <input type="number" name="height" id="height">
+        <select name="sex" id="sex">
+            <option value="man">Homem</option>
+            <option value="woman">Mulher</option>
+        </select>
+    </form>
+    <h3 id="finalResult"></h3>
+    <input type="button" value="Calcular" onclick="getIdealWeight()">
+</body>
+</html>

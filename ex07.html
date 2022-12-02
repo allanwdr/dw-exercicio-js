@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/ex07.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Crie uma página que receba N valores do usuário.
+        Crie botões para mostrar todos os valores inseridos,
+        o maior valor e o menor valor do vetor -->
+    <h2>Base de números</h2>
+    <form action="" method="post">
+        <label for="numberValue">Digite um valor: </label>
+        <input type="number" name="numberValue" id="numberValue">
+        <br>
+        <input type="button" value="Inserir" onclick="insert()">
+        <input type="button" value="Exibir todos" onclick="show()">
+        <input type="button" value="Maior" onclick="bigger()">
+        <input type="button" value="Menor" onclick="smaller()">
+        <br>
+        <input type="button" value="Limpar" onclick="window.location.reload()">
+    </form>
+    <h3 id="result"></h3>
+</body>
+</html>
